@@ -1446,7 +1446,7 @@ static CGameInfo GetGameInfo(const CNetObj_GameInfoEx *pInfoEx, int InfoExSize, 
 	Info.m_RaceSounds = DDRace || FNG || BlockWorlds;
 	Info.m_AllowEyeWheel = DDRace || BlockWorlds || City || Plus;
 	Info.m_AllowHookColl = DDRace;
-	Info.m_AllowZoom = Race || BlockWorlds || City;
+	Info.m_AllowZoom = Race || BlockWorlds || City || FNG;
 	Info.m_BugDDRaceGhost = DDRace;
 	Info.m_BugDDRaceInput = DDRace;
 	Info.m_BugFNGLaserRange = FNG;
